@@ -1,0 +1,14 @@
+﻿- if (task.PercentComplete < 50) 
+  %tr { class = "red" }
+    %td = task.Name
+    %td = Html.v5.time(task.Start)
+    %td = Html.v5.time(task.End)
+    %td = task.Duration
+    %td = task.PercentComplete
+- else 
+  %tr { class = "green" }
+    %td = task.Name
+    %td = Html.v5.time(task.Start)
+    %td = Html.v5.time(task.End)
+    %td = task.Duration
+    %td = task.PercentComplete
