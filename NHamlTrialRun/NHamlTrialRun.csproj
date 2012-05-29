@@ -61,6 +61,7 @@
     <None Include="Views\layout.haml" />
     <None Include="Views\Project.haml" />
     <None Include="Views\_Job.haml" />
+    <None Include="Views\_Jobs.haml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
